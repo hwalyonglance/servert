@@ -1,0 +1,49 @@
+{
+	"compileOnSave": false,
+	"compilerOptions": {
+		"baseUrl": "./",
+		"outDir": "../dist",
+		"sourceMap": false,
+		"declaration": false,
+		"moduleResolution": "node",
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"target": "es5",
+		"typeRoots": [
+			"../node_modules/@types"
+		],
+		"lib": [
+			"es2017",
+			"dom"
+		],
+		"paths": {
+			"@this/app": [
+				"app"
+			],
+			"@this/bootstrap": [
+				"bootstrap"
+			],
+			"@this/config": [
+				"config"
+			],
+			"@this/database": [
+				"database"
+			],
+			"@this/interfaces": [
+				"interfaces"
+			],
+			"@this/lib": [
+				"lib"
+			],
+			"@this/resources": [
+				"resources"
+			],
+			"@this/routes": [
+				"routes"
+			],
+			"@this/test": [
+				"test"
+			]
+		}
+	}
+}
